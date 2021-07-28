@@ -12,10 +12,14 @@ cd <REPO>
 ```
 docker build . -t <dockername>/<imagename>:<tag>
 ```
+2. Login to dockerhub
 ```
 docker login
 ```
 -> enter credentials of dockerhub login
+
+
+3. push image to dockerhub
 
 ```
 docker push <dockername>/<imagename>:<tag>
